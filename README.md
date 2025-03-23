@@ -1,2 +1,3 @@
 # 3D-CNN-AND-RNN-from-scratch
-Visualization of CNN with different activation function, filters and pooling layer. Comparison of different  RNN over a manually created datset  
+Visualization of CNN with different activation function, filters and pooling layer. Created Dataset from mnist dataset then Loads a 3D point cloud from an HDF5 file. Converts it into a 3D voxel grid Transforms the voxel grid into a PyTorch tensor. Applies 3D convolution to extract features from the voxel data. Processes the data through an activation function ( Outputs a new voxel feature tensor for further processing) you will be able to see how CNN works and at last cnn connected to ann through gap output 
+Comparison of different  RNN (base ,GRU AND LSTM ) using MSE loss function over a manually created datset  
